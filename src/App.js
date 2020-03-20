@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import Registry from './components/Registry';
 import Report from './components/Report';
-import Driver from './components/Driver';
+
 
 // data file with export default
 import items from './data/menu';
@@ -14,6 +14,7 @@ import items from './data/menu';
 class App extends Component{
   render(){
     return(
+
       <header className="App">
         
         <Header  title = "Titulo" items = {items} />
@@ -29,7 +30,6 @@ class App extends Component{
     
     );
   }
-
 }
 
 

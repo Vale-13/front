@@ -1,3 +1,4 @@
+
 //Dependencies
 import React, { Component, useState } from 'react';
 import { render } from 'react-dom';
@@ -10,9 +11,6 @@ import CalendarReact from './CalendarReact';
 
 class Report extends Component{
 
-  componentDidMount() {
-    
-  }
 
   render(){   
     return(
@@ -21,7 +19,7 @@ class Report extends Component{
          <CalendarReact/>
       </div>
       
-      
+ 
     );
   }
 }

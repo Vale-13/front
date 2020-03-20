@@ -1,4 +1,3 @@
-
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -11,11 +10,11 @@ import ReactCalendar from './components/CalendarReact';
 
 
 
+
+
 ReactDOM.render(
 <App />, 
-//<ReactCalendar/>,
-//<ReactCalendar/>,
-
+//<Header/>,
 document.getElementById('root')
 );
 

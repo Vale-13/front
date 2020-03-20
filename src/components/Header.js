@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 //Assets
 import '../css/Header.css'
 import logo from '../images/Softtek.gif';
-import '../App';
-import Driver from './Driver';
+
 
 class Header extends Component
 {
@@ -21,10 +20,12 @@ class Header extends Component
         
         <nav>
         <ul>
+
             <li><a href="#" >Home</a></li>
             <li><a className="OptionReg" href="#" >Registrar</a></li>
             <li><a href="#">Reporte</a></li>
            
+
         </ul>
     </nav>
         
