@@ -1,13 +1,21 @@
-import React from 'react';
+
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Header from './components/Header';
+//import Calendar from 'react-calendar';
+import React, { Component, useState } from 'react';
+
+import ReactCalendar from './components/CalendarReact';
+
+
 
 ReactDOM.render(
 <App />, 
-//<Header/>,
+//<ReactCalendar/>,
+//<ReactCalendar/>,
+
 document.getElementById('root')
 );
 
