@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import Button from './Button';
+import '../css/Registry.css';
+import Clock from './Clock';
+
 
 class Registry extends Component
 {
   render(){
     return(
-
-      <div className="Registry">
-        <h1>Soy la seccion del Registro</h1>
+    <card>
+      <div className="regs">
+        <h1>Ingreso de Académico</h1>
+        <Button/>
+        <Clock/>
       </div>
+      </card>
     );
   }
 

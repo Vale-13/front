@@ -20,7 +20,7 @@ class App extends Component{
         <Header  title = "Titulo" items = {items} />
 
         <div id = "Registry" className="Registry">
-         
+          <Registry/>
         </div>
         <div id="Report" className="Report">
           <Report/>
