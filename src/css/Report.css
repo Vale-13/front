@@ -7,3 +7,8 @@
   /* IMPORTANTE */
   text-align: center;
 }
+
+.btn-blue{
+  background-color:rgb(78, 127, 232);
+  color: white;
+}

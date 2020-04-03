@@ -13,7 +13,7 @@ import ReactCalendar from './components/CalendarReact';
 
 
 ReactDOM.render(
-<App />, 
+<App />,
 //<Header/>,
 document.getElementById('root')
 );

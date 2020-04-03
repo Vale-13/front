@@ -8,13 +8,12 @@ class Registry extends Component
 {
   render(){
     return(
-    <card>
+    
       <div className="regs">
         <h1>Ingreso de Académico</h1>
         <Button/>
         <Clock/>
-      </div>
-      </card>
+        </div>
     );
   }
 
